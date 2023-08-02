@@ -1,7 +1,8 @@
 { config, ... }:
 
 {
-  networking.hostName = "laptop";
+  networking.hostName = "nixos";
+  # networking.hostName = "laptop";
 
   imports =
     [
