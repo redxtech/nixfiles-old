@@ -9,7 +9,13 @@
     # xkbOptions = "ctrl:nocaps,shift:both_capslock";
 
     displayManager.gdm.enable = true;
-    # displayManager.sddm.enable = true;
+    /*
+    displayManager = {
+      lightdm = {
+        enable = true;
+      };
+    };
+    */
     desktopManager.gnome.enable = true;
     displayManager.defaultSession = "none+bspwm";
     windowManager.bspwm.enable = true;

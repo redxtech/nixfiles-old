@@ -30,7 +30,10 @@ in
       flameshot
       # gamescope
       google-chrome
+      insomnia
       kitty
+      libsForQt5.kleopatra
+      mozillavpn
       mpv
       networkmanagerapplet
       obsidian
@@ -45,6 +48,7 @@ in
         enableWidevine = false;
         commandLineArgs = "--force-dark-mode";
       })
+      vscodium
     ]
     ++
     ## cli apps
@@ -71,14 +75,18 @@ in
       mediainfo
       micro
       neofetch
+      pavucontrol
+      pipecontrol
       playerctl
       poetry
+      pulseaudio
       ranger
       rclone
       ripgrep
       tealdeer
       tmux
       xfce.exo
+      xorg.xmodmap
       yadm
     ]
     ++
